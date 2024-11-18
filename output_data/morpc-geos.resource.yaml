@@ -1,0 +1,17 @@
+name: morpc-geos
+type: file
+title: Complete collection of geographies of interest to MORPC
+description: 'This geopackage contains a set of geographies for the MORPC 15-county
+  region derived from several sources. The geographies have been standardized for
+  use by MORPC scripts, for example by reprojecting to a standard coordinate reference
+  system and adding certain MORPC-specific fields. For more information, see the morpc-geos-collect
+  workflow and the upstream workflows referenced therein. The included geographies
+  are as follows: COUNTY, PLACE, COUSUB, TRACT, PLACE-COUNTY, COUNTY-TOWNSHIP-REMAINDER,
+  JURIS, JURIS-COUNTY, REGION15'
+profile: data-resource
+path: morpc-geos.gpkg
+scheme: file
+format: gpkg
+mediatype: geopackage+sqlite3
+hash: e6055f3e650e02a3092140b1f4d04086
+bytes: 19005440
