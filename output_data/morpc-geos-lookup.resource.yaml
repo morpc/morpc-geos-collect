@@ -7,12 +7,13 @@ description: 'This table provides the identifiers for a set of geographies for t
   workflow.  Identifiers are included for the following geographies: COUNTY, PLACE,
   COUNTY-COUSUB, COUNTY-TRACT, COUNTY-TRACT-BG, COUNTY-TRACT-BG-BLOCK, CBSA, UNSD,
   ZCTA5, PLACE-COUNTY, COUNTY-TOWNSHIP-REMAINDER, JURIS, JURIS-COUNTY, REGION15, REGION10,
-  REGION7, REGIONCORPO, REGIONCEDS, REGIONONECBUS'
+  REGION7, REGIONCORPO, REGIONCEDS, REGIONONECBUS, REGIONMPO, COUNTY-TAZ-MAZ-GRIDMAZ,
+  COUNTY-TAZ-MAZ, COUNTY-TAZ'
 profile: data-resource
 path: morpc-geos-lookup.csv
 scheme: file
 format: csv
 mediatype: text/csv
-hash: 6de6db24e6f23c82d8851b04f2d8b36f
-bytes: 96838
+hash: 5ed0bbeb3538f642b373447b247a6dd7
+bytes: 96894
 schema: morpc-geos-lookup.schema.yaml
