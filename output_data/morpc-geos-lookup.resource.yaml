@@ -1,4 +1,4 @@
-name: morpc-geos-lookup-2024
+name: morpc-geos-lookup
 type: table
 title: Identifiers for geographies of interest to MORPC
 description: 'This table provides the identifiers for a set of geographies for the
@@ -10,10 +10,10 @@ description: 'This table provides the identifiers for a set of geographies for t
   REGION7, REGIONCORPO, REGIONCEDS, REGIONONECBUS, REGIONMPO, COUNTY-TAZ-MAZ-GRIDMAZ,
   COUNTY-TAZ-MAZ, COUNTY-TAZ'
 profile: data-resource
-path: morpc-geos-lookup-2024.csv
+path: morpc-geos-lookup.csv
 scheme: file
 format: csv
 mediatype: text/csv
-hash: 5ed0bbeb3538f642b373447b247a6dd7
-bytes: 96894
+hash: 9e9152d64a3e145c002a9612844e3d3c
+bytes: 115642
 schema: morpc-geos-lookup.schema.yaml
