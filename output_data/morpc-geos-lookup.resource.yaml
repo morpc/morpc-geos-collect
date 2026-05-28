@@ -4,15 +4,15 @@ title: Identifiers for geographies of interest to MORPC
 description: 'This table provides the identifiers and metadata for a set of geographies
   for the MORPC 15-county region derived from several sources. The geographies themselves
   are available in an associated geopackage. For more information, see the morpc-geos-collect
-  workflow.  Identifiers are included for the following geographies: REGION7, REGION15,
-  REGIONCORPO, REGIONCEDS, CBSA, JURIS-COUNTY, COUNTY, JURIS-MORPC, COUNTY-COUSUB,
-  REGIONONECBUS, REGIONMPO-MORPC, COUNTY-MORPC, JURIS-COUNTY-MORPC, JURIS, COUNTY-TOWNSHIP-REMAINDER,
-  REGIONTDM-MORPC, REGION10, UNSD, REGIONSWACO, PLACE-COUNTY, PLACE'
+  workflow.  Identifiers are included for the following geographies: JURIS-MORPC,
+  PLACE-COUNTY, COUNTY, REGIONTDM-MORPC, CBSA, REGION10, JURIS-COUNTY, UNSD, REGIONMPO-MORPC,
+  COUNTY-MORPC, URBANAREA, COUNTY-COUSUB, COUNTY-TOWNSHIP-REMAINDER, REGION7, JURIS-COUNTY-MORPC,
+  REGION15, JURIS, PLACE, REGIONCEDS, REGIONONECBUS, REGIONSWACO, REGIONCORPO'
 profile: data-resource
 path: morpc-geos-lookup.csv
 scheme: file
 format: csv
 mediatype: text/csv
-hash: bf7bf5882136d6c226f1bda7c40acd85
-bytes: 259246
+hash: fd59c56a0d75bb602bb1117ff463070b
+bytes: 260499
 schema: morpc-geos-lookup.schema.yaml

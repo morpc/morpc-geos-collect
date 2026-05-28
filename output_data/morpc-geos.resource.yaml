@@ -7,7 +7,7 @@ description: 'This geopackage contains a set of geographies for the MORPC 15-cou
   system and adding certain MORPC-specific fields. For more information, see the morpc-geos-collect
   workflow and the upstream workflows referenced therein. The included geographies
   are as follows: COUNTY, PLACE, COUNTY-COUSUB, COUNTY-TRACT, COUNTY-TRACT-BG, COUNTY-TRACT-BG-BLOCK,
-  CBSA, UNSD, ZCTA5, PLACE-COUNTY, COUNTY-TOWNSHIP-REMAINDER, JURIS, JURIS-COUNTY,
+  CBSA, UNSD, ZCTA5, URBANAREA, PLACE-COUNTY, COUNTY-TOWNSHIP-REMAINDER, JURIS, JURIS-COUNTY,
   REGION15, REGION10, REGION7, REGIONCORPO, REGIONCEDS, REGIONONECBUS, JURIS-MORPC,
   COUNTY-MORPC, REGIONTDM-MORPC, JURIS-COUNTY-MORPC, REGIONSWACO, REGIONMPO-MORPC,
   COUNTY-TAZ-MAZ-GRIDMAZ, COUNTY-TAZ-MAZ, COUNTY-TAZ'
@@ -16,5 +16,5 @@ path: morpc-geos.gpkg
 scheme: file
 format: gpkg
 mediatype: geopackage+sqlite3
-hash: 44283dc78dd4ff99e3201b8ffe5e3dca
-bytes: 194715648
+hash: a90bff887bc64831b31f00407456fcda
+bytes: 195407872
