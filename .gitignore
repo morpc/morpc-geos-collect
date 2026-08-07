@@ -1,3 +1,5 @@
+output_data/morpc-geos.gpkg
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
