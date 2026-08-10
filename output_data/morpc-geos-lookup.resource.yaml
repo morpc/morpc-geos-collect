@@ -9,10 +9,11 @@ description: 'This table provides the identifiers and metadata for a set of geog
   REGIONMPO-MORPC, JURIS, REGION7, UNSD, REGION15, CBSA, REGION10, JURIS-COUNTY, COUNTY-MORPC,
   JURIS-MORPC, REGIONCORPO, URBANAREA, REGIONSWACO, COUNTY-TOWNSHIP-REMAINDER'
 profile: data-resource
-path: morpc-geos-lookup.csv
-scheme: file
+path: https://github.com/morpc/morpc-geos-collect/releases/download/v2026.8.10/morpc-geos-lookup.csv
+scheme: https
 format: csv
 mediatype: text/csv
 hash: 409919f4baa98a05864993a33f172a46
 bytes: 260417
 schema: morpc-geos-lookup.schema.yaml
+_cache: morpc-geos-lookup.csv

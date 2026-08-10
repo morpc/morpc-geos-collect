@@ -1,0 +1,15 @@
+fields:
+  - name: GEOIDFQ
+    type: string
+  - name: GEOID
+    type: string
+  - name: STATEFP
+    type: string
+  - name: COUNTYFP
+    type: string
+  - name: TRACTCE
+    type: string
+  - name: BLOCKCE
+    type: string
+  - name: SUMLEVEL
+    type: string

@@ -1,0 +1,17 @@
+fields:
+  - name: GEOIDFQ
+    type: string
+  - name: GEOID
+    type: string
+  - name: SUMLEVEL
+    type: string
+  - name: COUNTYFP
+    type: string
+  - name: TAZ2020
+    type: number
+  - name: MAZ2020
+    type: number
+  - name: GridMAZ20
+    type: integer
+  - name: GRID_ID
+    type: integer

@@ -1,0 +1,25 @@
+name: morpc-geos-regioncorpo
+type: gpkg
+title: Complete collection of geographies of interest to MORPC - REGIONCORPO
+description: 'This geopackage contains a set of geographies for the MORPC 15-county
+  region derived from several sources. The geographies have been standardized for
+  use by MORPC scripts, for example by reprojecting to a standard coordinate reference
+  system and adding certain MORPC-specific fields. For more information, see the morpc-geos-collect
+  workflow and the upstream workflows referenced therein. The included geographies
+  are as follows: COUNTY, PLACE, COUNTY-COUSUB, COUNTY-TRACT, COUNTY-TRACT-BG, COUNTY-TRACT-BG-BLOCK,
+  UNSD, ZCTA5, URBANAREA, PLACE-COUNTY, COUNTY-TOWNSHIP-REMAINDER, JURIS, JURIS-COUNTY,
+  REGION15, REGION10, REGION7, REGIONCORPO, REGIONCEDS, REGIONONECBUS, JURIS-MORPC,
+  COUNTY-MORPC, REGIONTDM-MORPC, JURIS-COUNTY-MORPC, REGIONSWACO, REGIONMPO-MORPC,
+  COUNTY-TAZ-MAZ-GRIDMAZ, COUNTY-TAZ-MAZ, COUNTY-TAZ'
+profile: data-resource
+path: https://github.com/morpc/morpc-geos-collect/releases/download/v2026.8.10/morpc-geos.gpkg
+scheme: https
+format: gpkg
+mediatype: geopackage+sqlite3
+hash: c6cac5585b711a9d7ffdb7777a042585
+bytes: 194699264
+dialect:
+  gpkg:
+    layer: REGIONCORPO
+schema: morpc-geos-REGION15.schema.yaml
+_cache: morpc-geos.gpkg

@@ -1,0 +1,17 @@
+fields:
+  - name: GEOIDFQ
+    type: string
+  - name: NAME
+    type: string
+  - name: GEOID
+    type: string
+  - name: STATEFP
+    type: string
+  - name: UNSDLEA
+    type: string
+  - name: LOGRADE
+    type: string
+  - name: HIGRADE
+    type: string
+  - name: SUMLEVEL
+    type: string

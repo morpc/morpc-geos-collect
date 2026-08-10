@@ -1,0 +1,11 @@
+fields:
+  - name: GEOIDFQ
+    type: string
+  - name: GEOID
+    type: string
+  - name: ZCTA5CE
+    type: string
+  - name: CLASSFP
+    type: string
+  - name: SUMLEVEL
+    type: string

@@ -1,0 +1,11 @@
+fields:
+  - name: GEOIDFQ
+    type: string
+  - name: NAME
+    type: string
+  - name: GEOID
+    type: string
+  - name: UACE
+    type: string
+  - name: SUMLEVEL
+    type: string

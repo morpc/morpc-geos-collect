@@ -1,0 +1,25 @@
+fields:
+  - name: GEOIDFQ
+    type: string
+  - name: NAME
+    type: string
+  - name: MUNITYPE
+    type: string
+  - name: GEOID
+    type: string
+  - name: STATEFP
+    type: string
+  - name: JURISID
+    type: string
+  - name: PLACEFP
+    type: string
+  - name: COUNTYFP
+    type: string
+  - name: COUSUBFP
+    type: string
+  - name: SUMLEVEL
+    type: string
+  - name: COUNTY
+    type: string
+  - name: PLACECOMBO
+    type: string
