@@ -1,6 +1,6 @@
-name: morpc-geos-county-taz-maz
+name: morpc-geos-cbsa
 type: gpkg
-title: Complete collection of geographies of interest to MORPC - COUNTY-TAZ-MAZ
+title: Complete collection of geographies of interest to MORPC - CBSA
 description: 'This geopackage contains a set of geographies for the MORPC 15-county
   region derived from several sources. The geographies have been standardized for
   use by MORPC scripts, for example by reprojecting to a standard coordinate reference
@@ -20,6 +20,6 @@ hash: af37ab9c803094d51171a8123c3280c5
 bytes: 195596288
 dialect:
   gpkg:
-    layer: COUNTY-TAZ-MAZ
-schema: morpc-geos-COUNTY-TAZ-MAZ.schema.yaml
+    layer: CBSA
+schema: morpc-geos-CBSA.schema.yaml
 _cache: morpc-geos.gpkg
