@@ -1,4 +1,8 @@
 fields:
+  - name: fid
+    type: integer
+    constraints:
+      required: true
   - name: GEOIDFQ
     type: string
   - name: GEOID
@@ -9,3 +13,5 @@ fields:
     type: string
   - name: TAZ2020
     type: integer
+primaryKey:
+  - fid

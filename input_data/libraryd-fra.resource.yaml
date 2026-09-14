@@ -1,0 +1,30 @@
+name: libraryd-fra
+type: arcgis
+path: https://gis.franklincountyohio.gov/hosting/rest/services/BaseMap/Administrative_Area/FeatureServer/8/
+scheme: https
+format: json
+mediatype: application/geo+json
+dialect:
+  arcgis:
+    totalRecords: 11
+    maxRecordCount: 2000
+    query:
+      where: 1=1
+      outFields: '*'
+schema:
+  fields:
+    - name: OBJECTID
+      type: string
+      title: OBJECTID
+    - name: Library
+      type: string
+      title: Library
+    - name: GlobalID
+      type: string
+      title: GlobalID
+    - name: Shape__Area
+      type: number
+      title: Shape.STArea()
+    - name: Shape__Length
+      type: number
+      title: Shape.STLength()
