@@ -668,7 +668,7 @@
             "singular": "MORPC region",
             "plural": "MORPC regions",
             "description": "A MORPC region made by combining jurisdiction county parts, for regions whose boundaries follow municipal or township lines rather than county lines.",
-            "hierarchy_string": "JURIS-COUNTY",
+            "hierarchy_string": "JURIS-REGION",
             "authority": "morpc",
             "idField": "JURISREGIONID",
             "nameField": "JURISREGION",
