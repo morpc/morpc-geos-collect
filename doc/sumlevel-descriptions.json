@@ -793,12 +793,12 @@
             "wof_placetype": null
         },
         "M22": {
-            "singular": null,
-            "plural": null,
+            "singular": "GridMAZ zone",
+            "plural": "GridMAZ zones",
             "description": "The intersection of MAZs with the quarter-mile grid, the smallest zone in MORPC's modeling hierarchy.",
-            "hierarchy_string": null,
-            "authority": null,
-            "idField": null,
+            "hierarchy_string": "GRIDMAZ",
+            "authority": "morpc",
+            "idField": "GRIDMAZID",
             "legacyIdField": "GridMAZ20",
             "nameField": null,
             "censusQueryName": null,
