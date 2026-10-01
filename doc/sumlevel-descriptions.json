@@ -1,0 +1,1101 @@
+{
+    "sumlevels": {
+        "010": {
+            "singular": "United States",
+            "plural": "United States",
+            "description": "The United States as a whole. The top of the census geographic hierarchy.",
+            "hierarchy_string": "US",
+            "authority": "census",
+            "idField": "NATIONID",
+            "nameField": "NATION",
+            "censusQueryName": "us",
+            "censusRestAPI_layername": null,
+            "geoidfq_format": "{SUMLEVEL:3}{VARIANT:2}{GEOCOMP:2}US",
+            "current_variant": "00",
+            "variants": {
+                "00": {
+                    "description": "Default: no geographic variant specified. Boundaries are updated annually, so the vintage is the data year.",
+                    "effective_date": null
+                }
+            },
+            "wof_placetype": "country"
+        },
+        "020": {
+            "singular": "Census region",
+            "plural": "Census Regions",
+            "description": "One of the four Census regions (Northeast, Midwest, South, West) that group states for statistical reporting.",
+            "hierarchy_string": "CENSUSREGION",
+            "authority": "census",
+            "idField": "REGIONID",
+            "nameField": "REGION",
+            "censusQueryName": "region",
+            "censusRestAPI_layername": "regions",
+            "geoidfq_format": "{SUMLEVEL:3}{VARIANT:2}{GEOCOMP:2}US{REGION:1}",
+            "current_variant": "00",
+            "variants": {
+                "00": {
+                    "description": "Default: no geographic variant specified. Boundaries are updated annually, so the vintage is the data year.",
+                    "effective_date": null
+                }
+            },
+            "wof_placetype": "macroregion"
+        },
+        "030": {
+            "singular": "division",
+            "plural": "divisions",
+            "description": "One of the nine Census divisions that subdivide the four Census regions into groups of states.",
+            "hierarchy_string": "DIVISION",
+            "authority": "census",
+            "idField": "DIVISONID",
+            "nameField": "DIVISION",
+            "censusQueryName": "division",
+            "censusRestAPI_layername": "divisions",
+            "geoidfq_format": "{SUMLEVEL:3}{VARIANT:2}{GEOCOMP:2}US{DIVISION:1}",
+            "current_variant": "00",
+            "variants": {
+                "00": {
+                    "description": "Default: no geographic variant specified. Boundaries are updated annually, so the vintage is the data year.",
+                    "effective_date": null
+                }
+            },
+            "wof_placetype": "macroregion"
+        },
+        "040": {
+            "singular": "state",
+            "plural": "states",
+            "description": "A U.S. state or state-equivalent such as the District of Columbia or Puerto Rico.",
+            "hierarchy_string": "STATE",
+            "authority": "census",
+            "idField": "STATEFP",
+            "nameField": "STATE",
+            "censusQueryName": "state",
+            "censusRestAPI_layername": "states",
+            "geoidfq_format": "{SUMLEVEL:3}{VARIANT:2}{GEOCOMP:2}US{STATE:2}",
+            "current_variant": "00",
+            "variants": {
+                "00": {
+                    "description": "Default: no geographic variant specified. Boundaries are updated annually, so the vintage is the data year.",
+                    "effective_date": null
+                }
+            },
+            "wof_placetype": "region"
+        },
+        "050": {
+            "singular": "county",
+            "plural": "counties",
+            "description": "A county or county-equivalent, the primary legal subdivision of a state.",
+            "hierarchy_string": "COUNTY",
+            "authority": "census",
+            "idField": "COUNTYFP",
+            "nameField": "COUNTY",
+            "censusQueryName": "county",
+            "censusRestAPI_layername": "counties",
+            "geoidfq_format": "{SUMLEVEL:3}{VARIANT:2}{GEOCOMP:2}US{STATE:2}{COUNTY:3}",
+            "current_variant": "00",
+            "variants": {
+                "00": {
+                    "description": "Default: no geographic variant specified. Boundaries are updated annually, so the vintage is the data year.",
+                    "effective_date": null
+                }
+            },
+            "wof_placetype": "county"
+        },
+        "060": {
+            "singular": "county subdivision",
+            "plural": "county subdivisions",
+            "description": "A county subdivision, which in Ohio are townships and the cities and villages that have separated from them. Nests within a county.",
+            "hierarchy_string": "COUSUB",
+            "authority": "census",
+            "idField": "COUSUBFP",
+            "nameField": "COUSUB",
+            "censusQueryName": "county subdivision",
+            "censusRestAPI_layername": "county subdivisions",
+            "geoidfq_format": "{SUMLEVEL:3}{VARIANT:2}{GEOCOMP:2}US{STATE:2}{COUNTY:3}{COUSUB:5}",
+            "current_variant": "00",
+            "variants": {
+                "00": {
+                    "description": "Default: no geographic variant specified. Boundaries are updated annually, so the vintage is the data year.",
+                    "effective_date": null
+                }
+            },
+            "wof_placetype": "locality"
+        },
+        "070": {
+            "singular": "county subdivision/remainder (or part)",
+            "plural": "county subdivision/remainders (or parts)",
+            "description": "The part of a county subdivision that is either within a given place or outside all places (the remainder), split by county. Used to separate townships from the cities and villages that overlap them.",
+            "hierarchy_string": "TOWNSHIP-REMAINDER",
+            "authority": "census",
+            "idField": "COUSUBPARTID",
+            "nameField": "COUSUBPART",
+            "censusQueryName": "place/remainder (or part)",
+            "censusRestAPI_layername": null,
+            "geoidfq_format": "{SUMLEVEL:3}{VARIANT:2}{GEOCOMP:2}US{STATE:2}{COUNTY:3}{COUSUB:5}{PLACEREM:5}",
+            "current_variant": "00",
+            "variants": {
+                "00": {
+                    "description": "Default: no geographic variant specified. Boundaries are updated annually, so the vintage is the data year.",
+                    "effective_date": null
+                }
+            },
+            "wof_placetype": null
+        },
+        "100": {
+            "singular": "census block",
+            "plural": "census blocks",
+            "description": "A census block, the smallest unit of census geography, bounded by visible features such as streets and streams and by legal boundaries. Nests within a block group.",
+            "hierarchy_string": "BLOCK",
+            "authority": "census",
+            "idField": "BLOCKCE",
+            "nameField": null,
+            "censusQueryName": "block",
+            "censusRestAPI_layername": "blocks",
+            "geoidfq_format": "{SUMLEVEL:3}{VARIANT:2}{GEOCOMP:2}US{STATE:2}{COUNTY:3}{TRACT:6}{BLKGRP:1}{BLOCK:3}",
+            "current_variant": "00",
+            "variants": {
+                "00": {
+                    "description": "Default: no geographic variant specified. Boundaries are updated annually, so the vintage is the data year.",
+                    "effective_date": null
+                }
+            },
+            "wof_placetype": null
+        },
+        "140": {
+            "singular": "tract",
+            "plural": "tracts",
+            "description": "A census tract, a small, relatively stable statistical subdivision of a county that typically holds 1,200 to 8,000 people. Nests within a county.",
+            "hierarchy_string": "TRACT",
+            "authority": "census",
+            "idField": "TRACTCE",
+            "nameField": "TRACT",
+            "censusQueryName": "tract",
+            "censusRestAPI_layername": "tracts",
+            "geoidfq_format": "{SUMLEVEL:3}{VARIANT:2}{GEOCOMP:2}US{STATE:2}{COUNTY:3}{TRACT:6}",
+            "current_variant": "00",
+            "variants": {
+                "00": {
+                    "description": "Default: no geographic variant specified. Boundaries are updated annually, so the vintage is the data year.",
+                    "effective_date": null
+                }
+            },
+            "wof_placetype": null
+        },
+        "150": {
+            "singular": "block group",
+            "plural": "block groups",
+            "description": "A block group, a cluster of census blocks within a tract that typically holds 600 to 3,000 people. The smallest geography for most American Community Survey estimates.",
+            "hierarchy_string": "BLKGRP",
+            "authority": "census",
+            "idField": "BLKGRPCE",
+            "nameField": "BLKGRP",
+            "censusQueryName": "block group",
+            "censusRestAPI_layername": "block groups",
+            "geoidfq_format": "{SUMLEVEL:3}{VARIANT:2}{GEOCOMP:2}US{STATE:2}{COUNTY:3}{TRACT:6}{BLKGRP:1}",
+            "current_variant": "00",
+            "variants": {
+                "00": {
+                    "description": "Default: no geographic variant specified. Boundaries are updated annually, so the vintage is the data year.",
+                    "effective_date": null
+                }
+            },
+            "wof_placetype": null
+        },
+        "155": {
+            "singular": "place county part",
+            "plural": "place county parts",
+            "description": "The portion of a place that falls within a given county. Places that cross county lines are split into one part per county.",
+            "hierarchy_string": "PLACE-COUNTY",
+            "authority": "census",
+            "idField": "PLACEPARTID",
+            "nameField": "PLACEPART",
+            "censusQueryName": "county (or part)",
+            "censusRestAPI_layername": null,
+            "geoidfq_format": "{SUMLEVEL:3}{VARIANT:2}{GEOCOMP:2}US{STATE:2}{PLACE:5}{COUNTY:3}",
+            "current_variant": "00",
+            "variants": {
+                "00": {
+                    "description": "Default: no geographic variant specified. Boundaries are updated annually, so the vintage is the data year.",
+                    "effective_date": null
+                }
+            },
+            "wof_placetype": null
+        },
+        "160": {
+            "singular": "place",
+            "plural": "places",
+            "description": "A place, meaning an incorporated city or village or a census designated place (CDP). Places can cross county lines.",
+            "hierarchy_string": "PLACE",
+            "authority": "census",
+            "idField": "PLACEFP",
+            "nameField": "PLACE",
+            "censusQueryName": "place",
+            "censusRestAPI_layername": "incorporated places",
+            "geoidfq_format": "{SUMLEVEL:3}{VARIANT:2}{GEOCOMP:2}US{STATE:2}{PLACE:5}",
+            "current_variant": "00",
+            "variants": {
+                "00": {
+                    "description": "Default: no geographic variant specified. Boundaries are updated annually, so the vintage is the data year.",
+                    "effective_date": null
+                }
+            },
+            "wof_placetype": "localadmin"
+        },
+        "310": {
+            "singular": "Metro/Micropolitan Statistical Area",
+            "plural": "Metro/Micropolitan Statistical Areas",
+            "description": "A metropolitan or micropolitan statistical area (core-based statistical area), made up of one or more counties around an urban core plus adjacent counties with strong commuting ties.",
+            "hierarchy_string": "CBSA",
+            "authority": "census",
+            "idField": "CBAFP",
+            "nameField": "CBSA",
+            "censusQueryName": "metropolitan statistical area/micropolitan statistical area",
+            "censusRestAPI_layername": "Metropolitan Statistical Areas",
+            "geoidfq_format": "{SUMLEVEL:3}{VARIANT:2}{GEOCOMP:2}US{CBSA:5}",
+            "current_variant": "M7",
+            "variants": {
+                "M1": {
+                    "description": "OMB Bulletin No. 10-02 delineations.",
+                    "effective_date": "2009-12-01"
+                },
+                "M2": {
+                    "description": "OMB Bulletin No. 13-01 delineations.",
+                    "effective_date": "2013-02-28"
+                },
+                "M3": {
+                    "description": "OMB Bulletin No. 15-01 delineations.",
+                    "effective_date": "2015-07-15"
+                },
+                "M4": {
+                    "description": "OMB Bulletin No. 17-01 delineations.",
+                    "effective_date": "2017-08-15"
+                },
+                "M5": {
+                    "description": "OMB Bulletin No. 18-04 delineations.",
+                    "effective_date": "2018-09-14"
+                },
+                "M6": {
+                    "description": "OMB Bulletin No. 20-01 delineations. Used in 2020 Census data products.",
+                    "effective_date": "2020-03-06"
+                },
+                "M7": {
+                    "description": "OMB Bulletin No. 23-01 delineations.",
+                    "effective_date": "2023-07-21"
+                }
+            },
+            "wof_placetype": "macrocounty"
+        },
+        "400": {
+            "singular": "urban area",
+            "plural": "urban areas",
+            "description": "An urban area, a densely settled territory delineated by the Census Bureau from housing and population density, independent of political boundaries.",
+            "hierarchy_string": "URBANAREA",
+            "authority": "census",
+            "idField": "UACE",
+            "nameField": "URBANAREA",
+            "censusQueryName": "urban area",
+            "censusRestAPI_layername": "urban areas",
+            "geoidfq_format": "{SUMLEVEL:3}{VARIANT:2}{GEOCOMP:2}US{UA:5}",
+            "current_variant": "C2",
+            "variants": {
+                "00": {
+                    "description": "2000 Census urban-rural classification, as used in 2000 Census data.",
+                    "effective_date": null
+                },
+                "C0": {
+                    "description": "2000 Census urban-rural classification. Used only in 2010 and 2011 ACS tabulations.",
+                    "effective_date": null
+                },
+                "C1": {
+                    "description": "2010 Census urban-rural classification. 2020 ACS tabulations use this code.",
+                    "effective_date": null
+                },
+                "C2": {
+                    "description": "2020 Census urban-rural classification. Used in 2020 Census tabulations.",
+                    "effective_date": null
+                },
+                "C3": {
+                    "description": "2030 Census urban-rural classification.",
+                    "effective_date": null
+                }
+            },
+            "wof_placetype": "marketarea"
+        },
+        "500": {
+            "singular": "congressional district",
+            "plural": "congressional districts",
+            "description": "A district from which a member of the U.S. House of Representatives is elected. Redrawn after each decennial census.",
+            "hierarchy_string": "CONGRESS",
+            "authority": "census",
+            "idField": "CDFP",
+            "nameField": "CONGRESS",
+            "censusQueryName": "congressional district",
+            "censusRestAPI_layername": "congressional districts",
+            "geoidfq_format": "{SUMLEVEL:3}{VARIANT:2}{GEOCOMP:2}US{STATE:2}{CD:2}",
+            "current_variant": "19",
+            "variants": {
+                "06": {
+                    "description": "106th Congress (election in 1998, session in 1999-2000).",
+                    "effective_date": null
+                },
+                "07": {
+                    "description": "107th Congress (election in 2000, session in 2001-2002).",
+                    "effective_date": null
+                },
+                "08": {
+                    "description": "108th Congress (election in 2002, session in 2003-2004).",
+                    "effective_date": null
+                },
+                "09": {
+                    "description": "109th Congress (election in 2004, session in 2005-2006).",
+                    "effective_date": null
+                },
+                "10": {
+                    "description": "110th Congress (election in 2006, session in 2007-2008).",
+                    "effective_date": null
+                },
+                "11": {
+                    "description": "111th Congress (election in 2008, session in 2009-2010).",
+                    "effective_date": null
+                },
+                "12": {
+                    "description": "112th Congress (election in 2010, session in 2011-2012).",
+                    "effective_date": null
+                },
+                "13": {
+                    "description": "113th Congress (election in 2012, session in 2013-2014).",
+                    "effective_date": null
+                },
+                "14": {
+                    "description": "114th Congress (election in 2014, session in 2015-2016).",
+                    "effective_date": null
+                },
+                "15": {
+                    "description": "115th Congress (election in 2016, session in 2017-2018).",
+                    "effective_date": null
+                },
+                "16": {
+                    "description": "116th Congress (election in 2018, session in 2019-2020).",
+                    "effective_date": null
+                },
+                "17": {
+                    "description": "117th Congress (election in 2020, session in 2021-2022).",
+                    "effective_date": null
+                },
+                "18": {
+                    "description": "118th Congress (election in 2022, session in 2023-2024).",
+                    "effective_date": null
+                },
+                "19": {
+                    "description": "119th Congress (election in 2024, session in 2025-2026).",
+                    "effective_date": null
+                },
+                "20": {
+                    "description": "120th Congress (election in 2026, session in 2027-2028).",
+                    "effective_date": null
+                },
+                "21": {
+                    "description": "121st Congress (election in 2028, session in 2029-2030).",
+                    "effective_date": null
+                }
+            },
+            "wof_placetype": null
+        },
+        "610": {
+            "singular": "state senate district",
+            "plural": "state senate districts",
+            "description": "A state legislative district for the upper chamber, which in Ohio is the Ohio Senate.",
+            "hierarchy_string": "STATESENATE",
+            "authority": "census",
+            "idField": "SLDUST",
+            "nameField": null,
+            "censusQueryName": "state legislative district (upper chamber)",
+            "censusRestAPI_layername": "state legislative districts - upper",
+            "geoidfq_format": "{SUMLEVEL:3}{VARIANT:2}{GEOCOMP:2}US{STATE:2}{SLDU:3}",
+            "current_variant": "U9",
+            "variants": {
+                "U0": {
+                    "description": "Election in 1999 or 2000, session in 2000-2001 or 2001-2002.",
+                    "effective_date": null
+                },
+                "U1": {
+                    "description": "Election in 2005 or 2006, session in 2006-2007 or 2007-2008.",
+                    "effective_date": null
+                },
+                "U2": {
+                    "description": "Election in 2009 or 2010, session in 2010-2011 or 2011-2012.",
+                    "effective_date": null
+                },
+                "U3": {
+                    "description": "Election in 2011 or 2012, session in 2012-2013 or 2013-2014.",
+                    "effective_date": null
+                },
+                "U4": {
+                    "description": "Election in 2013 or 2014, session in 2014-2015 or 2015-2016.",
+                    "effective_date": null
+                },
+                "U5": {
+                    "description": "Election in 2015 or 2016, session in 2016-2017 or 2017-2018.",
+                    "effective_date": null
+                },
+                "U6": {
+                    "description": "Election in 2017 or 2018, session in 2018-2019 or 2019-2020.",
+                    "effective_date": null
+                },
+                "U7": {
+                    "description": "Election in 2019 or 2020, session in 2020-2021 or 2021-2022.",
+                    "effective_date": null
+                },
+                "U8": {
+                    "description": "Election in 2021 or 2022, session in 2022-2023 or 2023-2024.",
+                    "effective_date": null
+                },
+                "U9": {
+                    "description": "Election in 2023 or 2024, session in 2024-2025 or 2025-2026.",
+                    "effective_date": null
+                },
+                "UA": {
+                    "description": "Election in 2025 or 2026, session in 2026-2027 or 2027-2028.",
+                    "effective_date": null
+                },
+                "UB": {
+                    "description": "Election in 2027 or 2028, session in 2028-2029 or 2029-2030.",
+                    "effective_date": null
+                }
+            },
+            "wof_placetype": null
+        },
+        "620": {
+            "singular": "state house district",
+            "plural": "state house districts",
+            "description": "A state legislative district for the lower chamber, which in Ohio is the Ohio House of Representatives.",
+            "hierarchy_string": "STATEHOUSE",
+            "authority": "census",
+            "idField": "SLDLST",
+            "nameField": null,
+            "censusQueryName": "state legislative district (lower chamber)",
+            "censusRestAPI_layername": "state legislative districts - lower",
+            "geoidfq_format": "{SUMLEVEL:3}{VARIANT:2}{GEOCOMP:2}US{STATE:2}{SLDL:3}",
+            "current_variant": "L9",
+            "variants": {
+                "L0": {
+                    "description": "Election in 1999 or 2000, session in 2000-2001 or 2001-2002.",
+                    "effective_date": null
+                },
+                "L1": {
+                    "description": "Election in 2005 or 2006, session in 2006-2007 or 2007-2008.",
+                    "effective_date": null
+                },
+                "L2": {
+                    "description": "Election in 2009 or 2010, session in 2010-2011 or 2011-2012.",
+                    "effective_date": null
+                },
+                "L3": {
+                    "description": "Election in 2011 or 2012, session in 2012-2013 or 2013-2014.",
+                    "effective_date": null
+                },
+                "L4": {
+                    "description": "Election in 2013 or 2014, session in 2014-2015 or 2015-2016.",
+                    "effective_date": null
+                },
+                "L5": {
+                    "description": "Election in 2015 or 2016, session in 2016-2017 or 2017-2018.",
+                    "effective_date": null
+                },
+                "L6": {
+                    "description": "Election in 2017 or 2018, session in 2018-2019 or 2019-2020.",
+                    "effective_date": null
+                },
+                "L7": {
+                    "description": "Election in 2019 or 2020, session in 2020-2021 or 2021-2022.",
+                    "effective_date": null
+                },
+                "L8": {
+                    "description": "Election in 2021 or 2022, session in 2022-2023 or 2023-2024.",
+                    "effective_date": null
+                },
+                "L9": {
+                    "description": "Election in 2023 or 2024, session in 2024-2025 or 2025-2026.",
+                    "effective_date": null
+                },
+                "LA": {
+                    "description": "Election in 2025 or 2026, session in 2026-2027 or 2027-2028.",
+                    "effective_date": null
+                },
+                "LB": {
+                    "description": "Election in 2027 or 2028, session in 2028-2029 or 2029-2030.",
+                    "effective_date": null
+                }
+            },
+            "wof_placetype": null
+        },
+        "795": {
+            "singular": "public use microdata area",
+            "plural": "public use microdata areas",
+            "description": "A public use microdata area, a statistical area of at least 100,000 people used to publish ACS Public Use Microdata Sample (PUMS) records.",
+            "hierarchy_string": "PUMA",
+            "authority": "census",
+            "idField": "PUMACE",
+            "nameField": "PUMA",
+            "censusQueryName": "public use microdata area",
+            "censusRestAPI_layername": "public use microdata areas",
+            "geoidfq_format": "{SUMLEVEL:3}{VARIANT:2}{GEOCOMP:2}US{STATE:2}{PUMA:5}",
+            "current_variant": "P2",
+            "variants": {
+                "00": {
+                    "description": "2000 and 2010 PUMA delineations.",
+                    "effective_date": null
+                },
+                "P2": {
+                    "description": "2020 PUMA delineation.",
+                    "effective_date": null
+                },
+                "P3": {
+                    "description": "2030 PUMA delineation.",
+                    "effective_date": null
+                }
+            },
+            "wof_placetype": null
+        },
+        "860": {
+            "singular": "zip code tabulation area",
+            "plural": "zip code tabulation areas",
+            "description": "A ZIP code tabulation area, the Census Bureau's generalized areal representation of a five-digit USPS ZIP code, built from census blocks.",
+            "hierarchy_string": "ZCTA5",
+            "authority": "census",
+            "idField": "ZCTA5CE",
+            "nameField": null,
+            "censusQueryName": "zip code tabulation area",
+            "censusRestAPI_layername": "zip code tabulation areas",
+            "geoidfq_format": "{SUMLEVEL:3}{VARIANT:2}{GEOCOMP:2}US{ZCTA5:5}",
+            "current_variant": "Z2",
+            "variants": {
+                "00": {
+                    "description": "2000 and 2010 Census ZCTA delineations. 2020 ACS tabulations use the 2010 delineation with this code.",
+                    "effective_date": null
+                },
+                "Z2": {
+                    "description": "2020 Census ZCTA delineation.",
+                    "effective_date": null
+                },
+                "Z3": {
+                    "description": "2030 Census ZCTA delineation.",
+                    "effective_date": null
+                }
+            },
+            "wof_placetype": "postalcode"
+        },
+        "950": {
+            "singular": "elementary school district",
+            "plural": "elementary school districts",
+            "description": "An elementary school district, which serves only the lower grades and is overlaid by a secondary school district.",
+            "hierarchy_string": "ELSD",
+            "authority": "census",
+            "idField": "ELSDLEA",
+            "nameField": "SCHOOLDELEM",
+            "censusQueryName": "school district (elementry)",
+            "censusRestAPI_layername": "elementary school districts",
+            "geoidfq_format": "{SUMLEVEL:3}{VARIANT:2}{GEOCOMP:2}US{STATE:2}{SDELM:5}",
+            "current_variant": "00",
+            "variants": {
+                "00": {
+                    "description": "Default: no geographic variant specified. Boundaries are updated annually, so the vintage is the data year.",
+                    "effective_date": null
+                }
+            },
+            "wof_placetype": "neighborhood"
+        },
+        "960": {
+            "singular": "high school district",
+            "plural": "high school districts",
+            "description": "A secondary school district, which serves only the upper grades and overlays one or more elementary school districts.",
+            "hierarchy_string": "SCSD",
+            "authority": "census",
+            "idField": "SCSDLEA",
+            "nameField": "SCHOOLDHIGH",
+            "censusQueryName": "school district (secondary)",
+            "censusRestAPI_layername": "secondary school districts",
+            "geoidfq_format": "{SUMLEVEL:3}{VARIANT:2}{GEOCOMP:2}US{STATE:2}{SDSEC:5}",
+            "current_variant": "00",
+            "variants": {
+                "00": {
+                    "description": "Default: no geographic variant specified. Boundaries are updated annually, so the vintage is the data year.",
+                    "effective_date": null
+                }
+            },
+            "wof_placetype": "neighborhood"
+        },
+        "970": {
+            "singular": "unified school district",
+            "plural": "unified school districts",
+            "description": "A unified school district, which serves all grade levels. Most Ohio school districts are unified.",
+            "hierarchy_string": "UNSD",
+            "authority": "census",
+            "idField": "UNSDLEA",
+            "nameField": "SCHOOLD",
+            "censusQueryName": "school district (unified)",
+            "censusRestAPI_layername": "unified school districts",
+            "geoidfq_format": "{SUMLEVEL:3}{VARIANT:2}{GEOCOMP:2}US{STATE:2}{SDUNI:5}",
+            "current_variant": "00",
+            "variants": {
+                "00": {
+                    "description": "Default: no geographic variant specified. Boundaries are updated annually, so the vintage is the data year.",
+                    "effective_date": null
+                }
+            },
+            "wof_placetype": "neighborhood"
+        },
+        "M01": {
+            "singular": "MORPC region",
+            "plural": "MORPC regions",
+            "description": "A MORPC region made by combining whole counties, such as the 15-county MORPC region. Consolidates the county-based regions that currently each have their own sumlevel.",
+            "hierarchy_string": "COUNTY-REGION",
+            "authority": "morpc",
+            "idField": "COUNTYREGIONID",
+            "nameField": "COUNTYREGION",
+            "censusQueryName": null,
+            "censusRestAPI_layername": null,
+            "geoidfq_format": "{SUMLEVEL:3}{VARIANT:2}{GEOCOMP:2}US{STATE:2}{COUNTYREGION:2}",
+            "current_variant": "00",
+            "variants": {
+                "00": {
+                    "description": "Default: no geographic variant specified. Boundaries are updated annually, so the vintage is the data year.",
+                    "effective_date": null
+                }
+            },
+            "wof_placetype": "macrocounty"
+        },
+        "M02": {
+            "singular": "MORPC region",
+            "plural": "MORPC regions",
+            "description": "A MORPC region made by combining jurisdiction county parts, for regions whose boundaries follow municipal or township lines rather than county lines.",
+            "hierarchy_string": "JURIS-COUNTY",
+            "authority": "morpc",
+            "idField": "JURISREGIONID",
+            "nameField": "JURISREGION",
+            "censusQueryName": null,
+            "censusRestAPI_layername": null,
+            "geoidfq_format": "{SUMLEVEL:3}{VARIANT:2}{GEOCOMP:2}US{STATE:2}{JURISREGION:2}",
+            "current_variant": "00",
+            "variants": {
+                "00": {
+                    "description": "Default: no geographic variant specified. Boundaries are updated annually, so the vintage is the data year.",
+                    "effective_date": null
+                }
+            },
+            "wof_placetype": "macrocounty"
+        },
+        "M10": {
+            "singular": "Jurisdiction",
+            "plural": "Jurisdictions",
+            "description": "A jurisdiction, the closest representation of municipal and political jurisdictions: whole cities and villages plus the township remainders outside them.",
+            "hierarchy_string": "JURIS",
+            "authority": "morpc",
+            "idField": "JURISID",
+            "nameField": "JURIS",
+            "censusQueryName": null,
+            "censusRestAPI_layername": null,
+            "geoidfq_format": "{SUMLEVEL:3}{VARIANT:2}{GEOCOMP:2}US{STATE:2}{COUNTY:3}{COUSUB:5}{PLACEREM:5}/{PLACE:5}00000000",
+            "current_variant": "00",
+            "variants": {
+                "00": {
+                    "description": "Default: no geographic variant specified. Boundaries are updated annually, so the vintage is the data year.",
+                    "effective_date": null
+                }
+            },
+            "wof_placetype": "borough"
+        },
+        "M11": {
+            "singular": "Jurisdiction county part",
+            "plural": "Jurisdiction county parts",
+            "description": "A jurisdiction county part, meaning a jurisdiction split by county so that a city or village crossing a county line is represented once per county.",
+            "hierarchy_string": "JURIS-COUNTY",
+            "authority": "morpc",
+            "idField": "JURISPARTID",
+            "nameField": "JURISPART",
+            "censusQueryName": null,
+            "censusRestAPI_layername": null,
+            "geoidfq_format": "{SUMLEVEL:3}{VARIANT:2}{GEOCOMP:2}US{STATE:2}{COUNTY:3}{COUSUB:5}{PLACEREM:5}/{PLACE:5}{COUNTY:3}00000",
+            "current_variant": "00",
+            "variants": {
+                "00": {
+                    "description": "Default: no geographic variant specified. Boundaries are updated annually, so the vintage is the data year.",
+                    "effective_date": null
+                }
+            },
+            "wof_placetype": "borough"
+        },
+        "M20": {
+            "singular": "transportation analysis zone",
+            "plural": "transportation analysis zones",
+            "description": "A transportation analysis zone (TAZ), the zone system MORPC's travel demand model uses to summarize households, population, and employment.",
+            "hierarchy_string": "TAZ",
+            "authority": "morpc",
+            "idField": "TAZID",
+            "nameField": null,
+            "censusQueryName": null,
+            "censusRestAPI_layername": null,
+            "geoidfq_format": "{SUMLEVEL:3}{VARIANT:2}{GEOCOMP:2}US{STATE:2}{TAZ:5}",
+            "current_variant": "00",
+            "variants": {
+                "00": {
+                    "description": "Default: no geographic variant specified. Boundaries are updated annually, so the vintage is the data year.",
+                    "effective_date": null
+                }
+            },
+            "wof_placetype": null
+        },
+        "M21": {
+            "singular": "micro analysis zone",
+            "plural": "micro analysis zones",
+            "description": "A micro analysis zone (MAZ), a finer subdivision of TAZs used by MORPC's activity-based travel demand model.",
+            "hierarchy_string": "MAZ",
+            "authority": "morpc",
+            "idField": "MAZID",
+            "nameField": null,
+            "censusQueryName": null,
+            "censusRestAPI_layername": null,
+            "geoidfq_format": "{SUMLEVEL:3}{VARIANT:2}{GEOCOMP:2}US{STATE:2}{TAZ:5}{MAZ:2}",
+            "current_variant": "00",
+            "variants": {
+                "00": {
+                    "description": "Default: no geographic variant specified. Boundaries are updated annually, so the vintage is the data year.",
+                    "effective_date": null
+                }
+            },
+            "wof_placetype": null
+        },
+        "M22": {
+            "singular": null,
+            "plural": null,
+            "description": "The intersection of MAZs with the quarter-mile grid, the smallest zone in MORPC's modeling hierarchy.",
+            "hierarchy_string": null,
+            "authority": null,
+            "idField": null,
+            "nameField": null,
+            "censusQueryName": null,
+            "censusRestAPI_layername": null,
+            "geoidfq_format": "{SUMLEVEL:3}{VARIANT:2}{GEOCOMP:2}US{STATE:2}{TAZ:5}{MAZ:2}{GRIDMILE:5}{GRIDQRTM:1}",
+            "current_variant": "00",
+            "variants": {
+                "00": {
+                    "description": "Default: no geographic variant specified. Boundaries are updated annually, so the vintage is the data year.",
+                    "effective_date": null
+                }
+            },
+            "wof_placetype": null
+        },
+        "M30": {
+            "singular": "refuse district",
+            "plural": "refuse districts",
+            "description": "A solid waste (refuse) management district, the county or multi-county district responsible for solid waste planning in Ohio.",
+            "hierarchy_string": "REFUSED",
+            "authority": "morpc",
+            "idField": "REFUSEDID",
+            "nameField": "REFUSED",
+            "censusQueryName": null,
+            "censusRestAPI_layername": null,
+            "geoidfq_format": "{SUMLEVEL:3}{VARIANT:2}{GEOCOMP:2}US{STATE:2}{REFUSED:5}",
+            "current_variant": "00",
+            "variants": {
+                "00": {
+                    "description": "Default: no geographic variant specified. Boundaries are updated annually, so the vintage is the data year.",
+                    "effective_date": null
+                }
+            },
+            "wof_placetype": "neighborhood"
+        },
+        "M31": {
+            "singular": "library district",
+            "plural": "library districts",
+            "description": "A library district, the service area of a public library system.",
+            "hierarchy_string": "LIBRARYD",
+            "authority": "morpc",
+            "idField": "LIBRARYID",
+            "nameField": "LIBRARY",
+            "censusQueryName": null,
+            "censusRestAPI_layername": null,
+            "geoidfq_format": "{SUMLEVEL:3}{VARIANT:2}{GEOCOMP:2}US{STATE:2}{LIBRARYD:3}",
+            "current_variant": "00",
+            "variants": {
+                "00": {
+                    "description": "Default: no geographic variant specified. Boundaries are updated annually, so the vintage is the data year.",
+                    "effective_date": null
+                }
+            },
+            "wof_placetype": "neighborhood"
+        },
+        "M32": {
+            "singular": "campus",
+            "plural": "campuses",
+            "description": "A campus, the boundary of a college, university, or similar institutional campus.",
+            "hierarchy_string": "CAMPUS",
+            "authority": "morpc",
+            "idField": "CAMPUSID",
+            "nameField": "CAMPUS",
+            "censusQueryName": null,
+            "censusRestAPI_layername": null,
+            "geoidfq_format": "{SUMLEVEL:3}{VARIANT:2}{GEOCOMP:2}US{STATE:2}{CAMPUS:5}",
+            "current_variant": "00",
+            "variants": {
+                "00": {
+                    "description": "Default: no geographic variant specified. Boundaries are updated annually, so the vintage is the data year.",
+                    "effective_date": null
+                }
+            },
+            "wof_placetype": "neighborhood"
+        },
+        "M40": {
+            "singular": "1-mile grid",
+            "plural": "1-mile grids",
+            "description": "A cell in a regular one-mile grid covering the region, used to summarize data independently of administrative boundaries.",
+            "hierarchy_string": "GRIDMILE",
+            "authority": "morpc",
+            "idField": "GRIDMILEID",
+            "nameField": "GRIDMILE",
+            "censusQueryName": null,
+            "censusRestAPI_layername": null,
+            "geoidfq_format": "{SUMLEVEL:3}{VARIANT:2}{GEOCOMP:2}US{STATE:2}{GRIDMILE:5}",
+            "current_variant": "00",
+            "variants": {
+                "00": {
+                    "description": "Default: no geographic variant specified. Boundaries are updated annually, so the vintage is the data year.",
+                    "effective_date": null
+                }
+            },
+            "wof_placetype": null
+        },
+        "M41": {
+            "singular": "quarter-mile grid",
+            "plural": "quarter-mile grids",
+            "description": "A cell in a regular quarter-mile grid, made by dividing each one-mile grid cell into sixteen.",
+            "hierarchy_string": "GRIDQRTM",
+            "authority": "morpc",
+            "idField": "GRIDQRTMID",
+            "nameField": "GRIDQRTM",
+            "censusQueryName": null,
+            "censusRestAPI_layername": null,
+            "geoidfq_format": "{SUMLEVEL:3}{VARIANT:2}{GEOCOMP:2}US{STATE:2}{GRIDMILE:5}{GRIDQRTM:1}",
+            "current_variant": "00",
+            "variants": {
+                "00": {
+                    "description": "Default: no geographic variant specified. Boundaries are updated annually, so the vintage is the data year.",
+                    "effective_date": null
+                }
+            },
+            "wof_placetype": null
+        },
+        "M50": {
+            "singular": "blob",
+            "plural": "blobs",
+            "description": "A blob, a geometry derived by filtering or combining block groups, blocks, or parcels. Often used to show the general location of a type of population, and blobs from different sources may coexist in one layer.",
+            "hierarchy_string": "BLOB",
+            "authority": "morpc",
+            "idField": "BLOBID",
+            "nameField": "BLOB",
+            "censusQueryName": null,
+            "censusRestAPI_layername": null,
+            "geoidfq_format": "{SUMLEVEL:3}{VARIANT:2}{GEOCOMP:2}US{STATE:2}{COUNTY:3}{BLOB:6}",
+            "current_variant": "00",
+            "variants": {
+                "00": {
+                    "description": "Default: no geographic variant specified. Boundaries are updated annually, so the vintage is the data year.",
+                    "effective_date": null
+                }
+            },
+            "wof_placetype": "campus"
+        },
+        "M60": {
+            "singular": "parcel",
+            "plural": "parcels",
+            "description": "A parcel, a unit of land as recorded by the county auditor. The ID is the auditor's parcel number without punctuation, left-padded with zeros to 15 characters.",
+            "hierarchy_string": "PARCEL",
+            "authority": "morpc",
+            "idField": "PARCELID",
+            "nameField": "PARCEL",
+            "censusQueryName": null,
+            "censusRestAPI_layername": null,
+            "geoidfq_format": "{SUMLEVEL:3}{VARIANT:2}{GEOCOMP:2}US{STATE:2}{COUNTY:3}{PARCEL:15}",
+            "current_variant": "00",
+            "variants": {
+                "00": {
+                    "description": "Default: no geographic variant specified. Boundaries are updated annually, so the vintage is the data year.",
+                    "effective_date": null
+                }
+            },
+            "wof_placetype": "address"
+        },
+        "M61": {
+            "singular": "building",
+            "plural": "buildings",
+            "description": "A building, a structure located on a parcel.",
+            "hierarchy_string": "BUILD",
+            "authority": "morpc",
+            "idField": "BUILDID",
+            "nameField": "BUILD",
+            "censusQueryName": null,
+            "censusRestAPI_layername": null,
+            "geoidfq_format": "{SUMLEVEL:3}{VARIANT:2}{GEOCOMP:2}US{STATE:2}{COUNTY:3}{PARCEL:15}{BUILD:2}",
+            "current_variant": "00",
+            "variants": {
+                "00": {
+                    "description": "Default: no geographic variant specified. Boundaries are updated annually, so the vintage is the data year.",
+                    "effective_date": null
+                }
+            },
+            "wof_placetype": "building"
+        },
+        "M62": {
+            "singular": "address",
+            "plural": "addresses",
+            "description": "An address point, a single street address associated with a building.",
+            "hierarchy_string": "ADDR",
+            "authority": "morpc",
+            "idField": "ADDRID",
+            "nameField": "LSN",
+            "censusQueryName": null,
+            "censusRestAPI_layername": null,
+            "geoidfq_format": "{SUMLEVEL:3}{VARIANT:2}{GEOCOMP:2}US{STATE:2}{COUNTY:3}{PARCEL:15}{BUILD:2}{ADDR:3}",
+            "current_variant": "00",
+            "variants": {
+                "00": {
+                    "description": "Default: no geographic variant specified. Boundaries are updated annually, so the vintage is the data year.",
+                    "effective_date": null
+                }
+            },
+            "wof_placetype": "venue"
+        },
+        "M63": {
+            "singular": "unit",
+            "plural": "units",
+            "description": "A unit, such as an apartment or suite, within an address.",
+            "hierarchy_string": "UNIT",
+            "authority": "morpc",
+            "idField": "UNITID",
+            "nameField": "UNIT",
+            "censusQueryName": null,
+            "censusRestAPI_layername": null,
+            "geoidfq_format": "{SUMLEVEL:3}{VARIANT:2}{GEOCOMP:2}US{STATE:2}{COUNTY:3}{PARCEL:15}{BUILD:2}{ADDR:3}{UNIT:3}",
+            "current_variant": "00",
+            "variants": {
+                "00": {
+                    "description": "Default: no geographic variant specified. Boundaries are updated annually, so the vintage is the data year.",
+                    "effective_date": null
+                }
+            },
+            "wof_placetype": "enclosure"
+        }
+    },
+    "geocomps": {
+        "00": {
+            "description": "Not a geographic component"
+        },
+        "01": {
+            "description": "Urban"
+        },
+        "43": {
+            "description": "Rural"
+        },
+        "44": {
+            "description": "Rural—place"
+        },
+        "48": {
+            "description": "Rural—not in place"
+        },
+        "89": {
+            "description": "American Indian Reservation and Trust Land—Federal"
+        },
+        "90": {
+            "description": "American Indian Reservation and Trust Land—State"
+        },
+        "91": {
+            "description": "Oklahoma Tribal Statistical Area"
+        },
+        "92": {
+            "description": "Tribal Designated Statistical Area"
+        },
+        "93": {
+            "description": "Alaska Native Village Statistical Area"
+        },
+        "94": {
+            "description": "State Designated Tribal Statistical Area"
+        },
+        "95": {
+            "description": "Hawaiian Home Land"
+        },
+        "A0": {
+            "description": "In metropolitan or micropolitan statistical area"
+        },
+        "A1": {
+            "description": "In metropolitan or micropolitan statistical area—in principal city"
+        },
+        "A2": {
+            "description": "In metropolitan or micropolitan statistical area—not in principal city"
+        },
+        "A3": {
+            "description": "In metropolitan or micropolitan statistical area—urban"
+        },
+        "A6": {
+            "description": "In metropolitan or micropolitan statistical area—rural"
+        },
+        "C0": {
+            "description": "In metropolitan statistical area"
+        },
+        "C1": {
+            "description": "In metropolitan statistical area—in principal city"
+        },
+        "C2": {
+            "description": "In metropolitan statistical area—not in principal city"
+        },
+        "C3": {
+            "description": "In metropolitan statistical area—urban"
+        },
+        "C6": {
+            "description": "In metropolitan statistical area—rural"
+        },
+        "E0": {
+            "description": "In micropolitan statistical area"
+        },
+        "E1": {
+            "description": "In micropolitan statistical area—in principal city"
+        },
+        "E2": {
+            "description": "In micropolitan statistical area—not in principal city"
+        },
+        "E3": {
+            "description": "In micropolitan statistical area—urban"
+        },
+        "E6": {
+            "description": "In micropolitan statistical area—rural"
+        },
+        "G0": {
+            "description": "Not in metropolitan or micropolitan statistical area"
+        },
+        "G1": {
+            "description": "Not in metropolitan or micropolitan statistical area—urban"
+        },
+        "G4": {
+            "description": "Not in metropolitan or micropolitan statistical area—rural"
+        },
+        "H0": {
+            "description": "Not in metropolitan statistical area"
+        },
+        "H1": {
+            "description": "Not in metropolitan statistical area—urban"
+        },
+        "H4": {
+            "description": "Not in metropolitan statistical area—rural"
+        },
+        "M1": {
+            "description": "In New England city and town area—in principal city"
+        },
+        "M2": {
+            "description": "In New England city and town area—not in principal city"
+        },
+        "M3": {
+            "description": "In New England city and town area—urban"
+        },
+        "M6": {
+            "description": "In New England city and town area—rural"
+        }
+    }
+}
