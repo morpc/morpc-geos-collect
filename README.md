@@ -9,6 +9,10 @@ Running `morpc-geos-collect.ipynb` produces, in `output_data/`:
   - `morpc-geos.package.yaml` -- a Frictionless data package bundling all of the geopackage layer resources.
   - `morpc-geos-lookup.csv` -- a lookup table of identifiers for the collected geographies, with its own resource (`morpc-geos-lookup.resource.yaml`) and schema (`morpc-geos-lookup.schema.yaml`).
 
+## Geographic identifiers and hierarchy
+
+The sumlevel hierarchy diagram, `sumlevel-descriptions.json`, the GEOIDFQ documentation (`geoidfq.md`) and the spatial database plan moved to [morpc-geos-model](https://github.com/morpc/morpc-geos-model) under `doc/`, along with the script that exports the JSON from the diagram.
+
 ## Release workflow
 
 `morpc-geos.gpkg` is too large for Git (even with Git LFS) to hold economically, so it is not committed to this repository. Instead it is distributed as a GitHub release asset, and every resource descriptor above (the geopackage layers and the lookup table) points at that release's asset URLs.
