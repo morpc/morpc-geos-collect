@@ -5549,7 +5549,7 @@
                         <mxRectangle height="60" width="160" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="496-geoidfq_format-v" parent="496-geoidfq_format" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;{SUMLEVEL:3}{VARIANT:2}{GEOCOMP:2}US{STATE:2}{TAZ:5}&lt;/span&gt;" vertex="1">
+                <mxCell id="496-geoidfq_format-v" parent="496-geoidfq_format" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" value="{SUMLEVEL:3}{VARIANT:2}{GEOCOMP:2}US{STATE:2}{COUNTY:3}{TAZ:4}" vertex="1">
                     <mxGeometry height="60" width="220" x="160" as="geometry">
                         <mxRectangle height="60" width="220" as="alternateBounds"/>
                     </mxGeometry>
@@ -5711,7 +5711,7 @@
                         <mxRectangle height="60" width="160" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="506-geoidfq_format-v" parent="506-geoidfq_format" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;{SUMLEVEL:3}{VARIANT:2}{GEOCOMP:2}US{STATE:2}{TAZ:5}{MAZ:2}&lt;/span&gt;" vertex="1">
+                <mxCell id="506-geoidfq_format-v" parent="506-geoidfq_format" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" value="{SUMLEVEL:3}{VARIANT:2}{GEOCOMP:2}US{STATE:2}{COUNTY:3}{TAZ:4}{MAZ:3}" vertex="1">
                     <mxGeometry height="60" width="220" x="160" as="geometry">
                         <mxRectangle height="60" width="220" as="alternateBounds"/>
                     </mxGeometry>
@@ -5870,7 +5870,7 @@
                         <mxRectangle height="60" width="160" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="517-geoidfq_format-v" parent="517-geoidfq_format" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;{SUMLEVEL:3}{VARIANT:2}{GEOCOMP:2}US{STATE:2}{TAZ:5}{MAZ:2}&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;{GRIDMILE:5}{GRIDQRTM:1}&lt;/span&gt;" vertex="1">
+                <mxCell id="517-geoidfq_format-v" parent="517-geoidfq_format" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" value="{SUMLEVEL:3}{VARIANT:2}{GEOCOMP:2}US{STATE:2}{COUNTY:3}{TAZ:4}{MAZ:3}{GRIDMAZ:3}" vertex="1">
                     <mxGeometry height="60" width="220" x="160" as="geometry">
                         <mxRectangle height="60" width="220" as="alternateBounds"/>
                     </mxGeometry>
@@ -6065,10 +6065,9 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="530" edge="1" parent="1" source="85" style="edgeStyle=none;html=1;jumpStyle=arc;" target="496">
+                <mxCell id="530" edge="1" parent="1" source="130" style="edgeStyle=none;html=1;jumpStyle=arc;" target="496">
                     <mxGeometry relative="1" as="geometry">
                         <Array as="points">
-                            <mxPoint x="2670" y="2890"/>
                             <mxPoint x="2660" y="3940"/>
                         </Array>
                     </mxGeometry>
