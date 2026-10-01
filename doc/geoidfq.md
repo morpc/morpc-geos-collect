@@ -27,7 +27,7 @@ This is the Census structure: "050" is the summary level, "0000" is "the 2-digit
 
 ## Sumlevels
 
-A sumlevel is a type of geography. Each entry in `sumlevel-descriptions.json` gives its names, ID and name fields, Census API names (Census sumlevels only), `geoidfq_format`, variants and Who's On First placetype.
+A sumlevel is a type of geography. Each entry in `sumlevel-descriptions.json` gives its names, ID and name fields, Census API names (Census sumlevels only), `geoidfq_format`, variants and Who's On First placetype. For TAZ, MAZ and GRIDMAZ, `legacyIdField` names the field that keeps the original model ID (`TAZ2020`, `MAZ2020`, `GridMAZ20`). Their GEOID codes are renumbered within each parent.
 
 | SL | Name | Authority | Example GEOIDFQ | Example of |
 |---|---|---|---|---|
