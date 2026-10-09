@@ -1,10 +1,8 @@
 fields:
-  - name: fid
-    type: integer
-    constraints:
-      required: true
   - name: GEOIDFQ
     type: string
+    constraints:
+      required: true
   - name: GEOID
     type: string
   - name: SUMLEVEL
@@ -20,4 +18,4 @@ fields:
   - name: GRID_ID
     type: integer
 primaryKey:
-  - fid
+  - GEOIDFQ

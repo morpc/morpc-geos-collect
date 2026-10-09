@@ -1,6 +1,6 @@
 name: morpc-geos
-version: 2026.9.11
-created: '2026-09-11T12:09:05.339578'
+version: 2026.10.9
+created: '2026-10-09T11:26:24.229776'
 resources:
   - name: morpc-geos-county
     type: gpkg
@@ -17,12 +17,12 @@ resources:
       JURIS-COUNTY-MORPC, REGIONSWACO, REGIONMPO-MORPC, COUNTY-TAZ-MAZ-GRIDMAZ, COUNTY-TAZ-MAZ,
       COUNTY-TAZ, LIBRARYD'
     profile: data-resource
-    path: https://github.com/morpc/morpc-geos-collect/releases/download/v2026.9.11/morpc-geos.gpkg
+    path: https://github.com/morpc/morpc-geos-collect/releases/download/v2026.10.9/morpc-geos.gpkg
     scheme: https
     format: gpkg
     mediatype: geopackage+sqlite3
-    hash: af37ab9c803094d51171a8123c3280c5
-    bytes: 195596288
+    hash: 8a4390e3917f42b1e472839a94608a79
+    bytes: 197226496
     dialect:
       gpkg:
         layer: COUNTY
@@ -43,12 +43,12 @@ resources:
       JURIS-COUNTY-MORPC, REGIONSWACO, REGIONMPO-MORPC, COUNTY-TAZ-MAZ-GRIDMAZ, COUNTY-TAZ-MAZ,
       COUNTY-TAZ, LIBRARYD'
     profile: data-resource
-    path: https://github.com/morpc/morpc-geos-collect/releases/download/v2026.9.11/morpc-geos.gpkg
+    path: https://github.com/morpc/morpc-geos-collect/releases/download/v2026.10.9/morpc-geos.gpkg
     scheme: https
     format: gpkg
     mediatype: geopackage+sqlite3
-    hash: af37ab9c803094d51171a8123c3280c5
-    bytes: 195596288
+    hash: 8a4390e3917f42b1e472839a94608a79
+    bytes: 197226496
     dialect:
       gpkg:
         layer: PLACE
@@ -69,12 +69,12 @@ resources:
       JURIS-COUNTY-MORPC, REGIONSWACO, REGIONMPO-MORPC, COUNTY-TAZ-MAZ-GRIDMAZ, COUNTY-TAZ-MAZ,
       COUNTY-TAZ, LIBRARYD'
     profile: data-resource
-    path: https://github.com/morpc/morpc-geos-collect/releases/download/v2026.9.11/morpc-geos.gpkg
+    path: https://github.com/morpc/morpc-geos-collect/releases/download/v2026.10.9/morpc-geos.gpkg
     scheme: https
     format: gpkg
     mediatype: geopackage+sqlite3
-    hash: af37ab9c803094d51171a8123c3280c5
-    bytes: 195596288
+    hash: 8a4390e3917f42b1e472839a94608a79
+    bytes: 197226496
     dialect:
       gpkg:
         layer: COUNTY-COUSUB
@@ -95,12 +95,12 @@ resources:
       JURIS-COUNTY-MORPC, REGIONSWACO, REGIONMPO-MORPC, COUNTY-TAZ-MAZ-GRIDMAZ, COUNTY-TAZ-MAZ,
       COUNTY-TAZ, LIBRARYD'
     profile: data-resource
-    path: https://github.com/morpc/morpc-geos-collect/releases/download/v2026.9.11/morpc-geos.gpkg
+    path: https://github.com/morpc/morpc-geos-collect/releases/download/v2026.10.9/morpc-geos.gpkg
     scheme: https
     format: gpkg
     mediatype: geopackage+sqlite3
-    hash: af37ab9c803094d51171a8123c3280c5
-    bytes: 195596288
+    hash: 8a4390e3917f42b1e472839a94608a79
+    bytes: 197226496
     dialect:
       gpkg:
         layer: COUNTY-TRACT
@@ -121,12 +121,12 @@ resources:
       JURIS-COUNTY-MORPC, REGIONSWACO, REGIONMPO-MORPC, COUNTY-TAZ-MAZ-GRIDMAZ, COUNTY-TAZ-MAZ,
       COUNTY-TAZ, LIBRARYD'
     profile: data-resource
-    path: https://github.com/morpc/morpc-geos-collect/releases/download/v2026.9.11/morpc-geos.gpkg
+    path: https://github.com/morpc/morpc-geos-collect/releases/download/v2026.10.9/morpc-geos.gpkg
     scheme: https
     format: gpkg
     mediatype: geopackage+sqlite3
-    hash: af37ab9c803094d51171a8123c3280c5
-    bytes: 195596288
+    hash: 8a4390e3917f42b1e472839a94608a79
+    bytes: 197226496
     dialect:
       gpkg:
         layer: COUNTY-TRACT-BG
@@ -147,12 +147,12 @@ resources:
       JURIS-COUNTY-MORPC, REGIONSWACO, REGIONMPO-MORPC, COUNTY-TAZ-MAZ-GRIDMAZ, COUNTY-TAZ-MAZ,
       COUNTY-TAZ, LIBRARYD'
     profile: data-resource
-    path: https://github.com/morpc/morpc-geos-collect/releases/download/v2026.9.11/morpc-geos.gpkg
+    path: https://github.com/morpc/morpc-geos-collect/releases/download/v2026.10.9/morpc-geos.gpkg
     scheme: https
     format: gpkg
     mediatype: geopackage+sqlite3
-    hash: af37ab9c803094d51171a8123c3280c5
-    bytes: 195596288
+    hash: 8a4390e3917f42b1e472839a94608a79
+    bytes: 197226496
     dialect:
       gpkg:
         layer: COUNTY-TRACT-BG-BLOCK
@@ -173,12 +173,12 @@ resources:
       JURIS-COUNTY-MORPC, REGIONSWACO, REGIONMPO-MORPC, COUNTY-TAZ-MAZ-GRIDMAZ, COUNTY-TAZ-MAZ,
       COUNTY-TAZ, LIBRARYD'
     profile: data-resource
-    path: https://github.com/morpc/morpc-geos-collect/releases/download/v2026.9.11/morpc-geos.gpkg
+    path: https://github.com/morpc/morpc-geos-collect/releases/download/v2026.10.9/morpc-geos.gpkg
     scheme: https
     format: gpkg
     mediatype: geopackage+sqlite3
-    hash: af37ab9c803094d51171a8123c3280c5
-    bytes: 195596288
+    hash: 8a4390e3917f42b1e472839a94608a79
+    bytes: 197226496
     dialect:
       gpkg:
         layer: CBSA
@@ -199,12 +199,12 @@ resources:
       JURIS-COUNTY-MORPC, REGIONSWACO, REGIONMPO-MORPC, COUNTY-TAZ-MAZ-GRIDMAZ, COUNTY-TAZ-MAZ,
       COUNTY-TAZ, LIBRARYD'
     profile: data-resource
-    path: https://github.com/morpc/morpc-geos-collect/releases/download/v2026.9.11/morpc-geos.gpkg
+    path: https://github.com/morpc/morpc-geos-collect/releases/download/v2026.10.9/morpc-geos.gpkg
     scheme: https
     format: gpkg
     mediatype: geopackage+sqlite3
-    hash: af37ab9c803094d51171a8123c3280c5
-    bytes: 195596288
+    hash: 8a4390e3917f42b1e472839a94608a79
+    bytes: 197226496
     dialect:
       gpkg:
         layer: UNSD
@@ -225,12 +225,12 @@ resources:
       JURIS-COUNTY-MORPC, REGIONSWACO, REGIONMPO-MORPC, COUNTY-TAZ-MAZ-GRIDMAZ, COUNTY-TAZ-MAZ,
       COUNTY-TAZ, LIBRARYD'
     profile: data-resource
-    path: https://github.com/morpc/morpc-geos-collect/releases/download/v2026.9.11/morpc-geos.gpkg
+    path: https://github.com/morpc/morpc-geos-collect/releases/download/v2026.10.9/morpc-geos.gpkg
     scheme: https
     format: gpkg
     mediatype: geopackage+sqlite3
-    hash: af37ab9c803094d51171a8123c3280c5
-    bytes: 195596288
+    hash: 8a4390e3917f42b1e472839a94608a79
+    bytes: 197226496
     dialect:
       gpkg:
         layer: ZCTA5
@@ -251,12 +251,12 @@ resources:
       JURIS-COUNTY-MORPC, REGIONSWACO, REGIONMPO-MORPC, COUNTY-TAZ-MAZ-GRIDMAZ, COUNTY-TAZ-MAZ,
       COUNTY-TAZ, LIBRARYD'
     profile: data-resource
-    path: https://github.com/morpc/morpc-geos-collect/releases/download/v2026.9.11/morpc-geos.gpkg
+    path: https://github.com/morpc/morpc-geos-collect/releases/download/v2026.10.9/morpc-geos.gpkg
     scheme: https
     format: gpkg
     mediatype: geopackage+sqlite3
-    hash: af37ab9c803094d51171a8123c3280c5
-    bytes: 195596288
+    hash: 8a4390e3917f42b1e472839a94608a79
+    bytes: 197226496
     dialect:
       gpkg:
         layer: URBANAREA
@@ -277,12 +277,12 @@ resources:
       JURIS-COUNTY-MORPC, REGIONSWACO, REGIONMPO-MORPC, COUNTY-TAZ-MAZ-GRIDMAZ, COUNTY-TAZ-MAZ,
       COUNTY-TAZ, LIBRARYD'
     profile: data-resource
-    path: https://github.com/morpc/morpc-geos-collect/releases/download/v2026.9.11/morpc-geos.gpkg
+    path: https://github.com/morpc/morpc-geos-collect/releases/download/v2026.10.9/morpc-geos.gpkg
     scheme: https
     format: gpkg
     mediatype: geopackage+sqlite3
-    hash: af37ab9c803094d51171a8123c3280c5
-    bytes: 195596288
+    hash: 8a4390e3917f42b1e472839a94608a79
+    bytes: 197226496
     dialect:
       gpkg:
         layer: PLACE-COUNTY
@@ -303,12 +303,12 @@ resources:
       JURIS-COUNTY-MORPC, REGIONSWACO, REGIONMPO-MORPC, COUNTY-TAZ-MAZ-GRIDMAZ, COUNTY-TAZ-MAZ,
       COUNTY-TAZ, LIBRARYD'
     profile: data-resource
-    path: https://github.com/morpc/morpc-geos-collect/releases/download/v2026.9.11/morpc-geos.gpkg
+    path: https://github.com/morpc/morpc-geos-collect/releases/download/v2026.10.9/morpc-geos.gpkg
     scheme: https
     format: gpkg
     mediatype: geopackage+sqlite3
-    hash: af37ab9c803094d51171a8123c3280c5
-    bytes: 195596288
+    hash: 8a4390e3917f42b1e472839a94608a79
+    bytes: 197226496
     dialect:
       gpkg:
         layer: COUNTY-TOWNSHIP-REMAINDER
@@ -329,12 +329,12 @@ resources:
       JURIS-COUNTY-MORPC, REGIONSWACO, REGIONMPO-MORPC, COUNTY-TAZ-MAZ-GRIDMAZ, COUNTY-TAZ-MAZ,
       COUNTY-TAZ, LIBRARYD'
     profile: data-resource
-    path: https://github.com/morpc/morpc-geos-collect/releases/download/v2026.9.11/morpc-geos.gpkg
+    path: https://github.com/morpc/morpc-geos-collect/releases/download/v2026.10.9/morpc-geos.gpkg
     scheme: https
     format: gpkg
     mediatype: geopackage+sqlite3
-    hash: af37ab9c803094d51171a8123c3280c5
-    bytes: 195596288
+    hash: 8a4390e3917f42b1e472839a94608a79
+    bytes: 197226496
     dialect:
       gpkg:
         layer: JURIS
@@ -355,12 +355,12 @@ resources:
       JURIS-COUNTY-MORPC, REGIONSWACO, REGIONMPO-MORPC, COUNTY-TAZ-MAZ-GRIDMAZ, COUNTY-TAZ-MAZ,
       COUNTY-TAZ, LIBRARYD'
     profile: data-resource
-    path: https://github.com/morpc/morpc-geos-collect/releases/download/v2026.9.11/morpc-geos.gpkg
+    path: https://github.com/morpc/morpc-geos-collect/releases/download/v2026.10.9/morpc-geos.gpkg
     scheme: https
     format: gpkg
     mediatype: geopackage+sqlite3
-    hash: af37ab9c803094d51171a8123c3280c5
-    bytes: 195596288
+    hash: 8a4390e3917f42b1e472839a94608a79
+    bytes: 197226496
     dialect:
       gpkg:
         layer: JURIS-COUNTY
@@ -381,12 +381,12 @@ resources:
       JURIS-COUNTY-MORPC, REGIONSWACO, REGIONMPO-MORPC, COUNTY-TAZ-MAZ-GRIDMAZ, COUNTY-TAZ-MAZ,
       COUNTY-TAZ, LIBRARYD'
     profile: data-resource
-    path: https://github.com/morpc/morpc-geos-collect/releases/download/v2026.9.11/morpc-geos.gpkg
+    path: https://github.com/morpc/morpc-geos-collect/releases/download/v2026.10.9/morpc-geos.gpkg
     scheme: https
     format: gpkg
     mediatype: geopackage+sqlite3
-    hash: af37ab9c803094d51171a8123c3280c5
-    bytes: 195596288
+    hash: 8a4390e3917f42b1e472839a94608a79
+    bytes: 197226496
     dialect:
       gpkg:
         layer: REGION15
@@ -407,12 +407,12 @@ resources:
       JURIS-COUNTY-MORPC, REGIONSWACO, REGIONMPO-MORPC, COUNTY-TAZ-MAZ-GRIDMAZ, COUNTY-TAZ-MAZ,
       COUNTY-TAZ, LIBRARYD'
     profile: data-resource
-    path: https://github.com/morpc/morpc-geos-collect/releases/download/v2026.9.11/morpc-geos.gpkg
+    path: https://github.com/morpc/morpc-geos-collect/releases/download/v2026.10.9/morpc-geos.gpkg
     scheme: https
     format: gpkg
     mediatype: geopackage+sqlite3
-    hash: af37ab9c803094d51171a8123c3280c5
-    bytes: 195596288
+    hash: 8a4390e3917f42b1e472839a94608a79
+    bytes: 197226496
     dialect:
       gpkg:
         layer: REGION10
@@ -433,12 +433,12 @@ resources:
       JURIS-COUNTY-MORPC, REGIONSWACO, REGIONMPO-MORPC, COUNTY-TAZ-MAZ-GRIDMAZ, COUNTY-TAZ-MAZ,
       COUNTY-TAZ, LIBRARYD'
     profile: data-resource
-    path: https://github.com/morpc/morpc-geos-collect/releases/download/v2026.9.11/morpc-geos.gpkg
+    path: https://github.com/morpc/morpc-geos-collect/releases/download/v2026.10.9/morpc-geos.gpkg
     scheme: https
     format: gpkg
     mediatype: geopackage+sqlite3
-    hash: af37ab9c803094d51171a8123c3280c5
-    bytes: 195596288
+    hash: 8a4390e3917f42b1e472839a94608a79
+    bytes: 197226496
     dialect:
       gpkg:
         layer: REGION7
@@ -459,12 +459,12 @@ resources:
       JURIS-COUNTY-MORPC, REGIONSWACO, REGIONMPO-MORPC, COUNTY-TAZ-MAZ-GRIDMAZ, COUNTY-TAZ-MAZ,
       COUNTY-TAZ, LIBRARYD'
     profile: data-resource
-    path: https://github.com/morpc/morpc-geos-collect/releases/download/v2026.9.11/morpc-geos.gpkg
+    path: https://github.com/morpc/morpc-geos-collect/releases/download/v2026.10.9/morpc-geos.gpkg
     scheme: https
     format: gpkg
     mediatype: geopackage+sqlite3
-    hash: af37ab9c803094d51171a8123c3280c5
-    bytes: 195596288
+    hash: 8a4390e3917f42b1e472839a94608a79
+    bytes: 197226496
     dialect:
       gpkg:
         layer: REGIONCORPO
@@ -485,12 +485,12 @@ resources:
       JURIS-COUNTY-MORPC, REGIONSWACO, REGIONMPO-MORPC, COUNTY-TAZ-MAZ-GRIDMAZ, COUNTY-TAZ-MAZ,
       COUNTY-TAZ, LIBRARYD'
     profile: data-resource
-    path: https://github.com/morpc/morpc-geos-collect/releases/download/v2026.9.11/morpc-geos.gpkg
+    path: https://github.com/morpc/morpc-geos-collect/releases/download/v2026.10.9/morpc-geos.gpkg
     scheme: https
     format: gpkg
     mediatype: geopackage+sqlite3
-    hash: af37ab9c803094d51171a8123c3280c5
-    bytes: 195596288
+    hash: 8a4390e3917f42b1e472839a94608a79
+    bytes: 197226496
     dialect:
       gpkg:
         layer: REGIONCEDS
@@ -511,12 +511,12 @@ resources:
       JURIS-COUNTY-MORPC, REGIONSWACO, REGIONMPO-MORPC, COUNTY-TAZ-MAZ-GRIDMAZ, COUNTY-TAZ-MAZ,
       COUNTY-TAZ, LIBRARYD'
     profile: data-resource
-    path: https://github.com/morpc/morpc-geos-collect/releases/download/v2026.9.11/morpc-geos.gpkg
+    path: https://github.com/morpc/morpc-geos-collect/releases/download/v2026.10.9/morpc-geos.gpkg
     scheme: https
     format: gpkg
     mediatype: geopackage+sqlite3
-    hash: af37ab9c803094d51171a8123c3280c5
-    bytes: 195596288
+    hash: 8a4390e3917f42b1e472839a94608a79
+    bytes: 197226496
     dialect:
       gpkg:
         layer: REGIONONECBUS
@@ -537,16 +537,16 @@ resources:
       JURIS-COUNTY-MORPC, REGIONSWACO, REGIONMPO-MORPC, COUNTY-TAZ-MAZ-GRIDMAZ, COUNTY-TAZ-MAZ,
       COUNTY-TAZ, LIBRARYD'
     profile: data-resource
-    path: https://github.com/morpc/morpc-geos-collect/releases/download/v2026.9.11/morpc-geos.gpkg
+    path: https://github.com/morpc/morpc-geos-collect/releases/download/v2026.10.9/morpc-geos.gpkg
     scheme: https
     format: gpkg
     mediatype: geopackage+sqlite3
-    hash: af37ab9c803094d51171a8123c3280c5
-    bytes: 195596288
+    hash: 8a4390e3917f42b1e472839a94608a79
+    bytes: 197226496
     dialect:
       gpkg:
         layer: JURIS-MORPC
-    schema: morpc-geos-JURIS-MORPC.schema.yaml
+    schema: morpc-geos-JURIS-COUNTY.schema.yaml
     _cache: morpc-geos.gpkg
   - name: morpc-geos-county-morpc
     type: gpkg
@@ -563,12 +563,12 @@ resources:
       JURIS-COUNTY-MORPC, REGIONSWACO, REGIONMPO-MORPC, COUNTY-TAZ-MAZ-GRIDMAZ, COUNTY-TAZ-MAZ,
       COUNTY-TAZ, LIBRARYD'
     profile: data-resource
-    path: https://github.com/morpc/morpc-geos-collect/releases/download/v2026.9.11/morpc-geos.gpkg
+    path: https://github.com/morpc/morpc-geos-collect/releases/download/v2026.10.9/morpc-geos.gpkg
     scheme: https
     format: gpkg
     mediatype: geopackage+sqlite3
-    hash: af37ab9c803094d51171a8123c3280c5
-    bytes: 195596288
+    hash: 8a4390e3917f42b1e472839a94608a79
+    bytes: 197226496
     dialect:
       gpkg:
         layer: COUNTY-MORPC
@@ -589,12 +589,12 @@ resources:
       JURIS-COUNTY-MORPC, REGIONSWACO, REGIONMPO-MORPC, COUNTY-TAZ-MAZ-GRIDMAZ, COUNTY-TAZ-MAZ,
       COUNTY-TAZ, LIBRARYD'
     profile: data-resource
-    path: https://github.com/morpc/morpc-geos-collect/releases/download/v2026.9.11/morpc-geos.gpkg
+    path: https://github.com/morpc/morpc-geos-collect/releases/download/v2026.10.9/morpc-geos.gpkg
     scheme: https
     format: gpkg
     mediatype: geopackage+sqlite3
-    hash: af37ab9c803094d51171a8123c3280c5
-    bytes: 195596288
+    hash: 8a4390e3917f42b1e472839a94608a79
+    bytes: 197226496
     dialect:
       gpkg:
         layer: REGIONTDM-MORPC
@@ -615,16 +615,16 @@ resources:
       JURIS-COUNTY-MORPC, REGIONSWACO, REGIONMPO-MORPC, COUNTY-TAZ-MAZ-GRIDMAZ, COUNTY-TAZ-MAZ,
       COUNTY-TAZ, LIBRARYD'
     profile: data-resource
-    path: https://github.com/morpc/morpc-geos-collect/releases/download/v2026.9.11/morpc-geos.gpkg
+    path: https://github.com/morpc/morpc-geos-collect/releases/download/v2026.10.9/morpc-geos.gpkg
     scheme: https
     format: gpkg
     mediatype: geopackage+sqlite3
-    hash: af37ab9c803094d51171a8123c3280c5
-    bytes: 195596288
+    hash: 8a4390e3917f42b1e472839a94608a79
+    bytes: 197226496
     dialect:
       gpkg:
         layer: JURIS-COUNTY-MORPC
-    schema: morpc-geos-JURIS-COUNTY.schema.yaml
+    schema: morpc-geos-JURIS-COUNTY-MORPC.schema.yaml
     _cache: morpc-geos.gpkg
   - name: morpc-geos-regionswaco
     type: gpkg
@@ -641,12 +641,12 @@ resources:
       JURIS-COUNTY-MORPC, REGIONSWACO, REGIONMPO-MORPC, COUNTY-TAZ-MAZ-GRIDMAZ, COUNTY-TAZ-MAZ,
       COUNTY-TAZ, LIBRARYD'
     profile: data-resource
-    path: https://github.com/morpc/morpc-geos-collect/releases/download/v2026.9.11/morpc-geos.gpkg
+    path: https://github.com/morpc/morpc-geos-collect/releases/download/v2026.10.9/morpc-geos.gpkg
     scheme: https
     format: gpkg
     mediatype: geopackage+sqlite3
-    hash: af37ab9c803094d51171a8123c3280c5
-    bytes: 195596288
+    hash: 8a4390e3917f42b1e472839a94608a79
+    bytes: 197226496
     dialect:
       gpkg:
         layer: REGIONSWACO
@@ -667,12 +667,12 @@ resources:
       JURIS-COUNTY-MORPC, REGIONSWACO, REGIONMPO-MORPC, COUNTY-TAZ-MAZ-GRIDMAZ, COUNTY-TAZ-MAZ,
       COUNTY-TAZ, LIBRARYD'
     profile: data-resource
-    path: https://github.com/morpc/morpc-geos-collect/releases/download/v2026.9.11/morpc-geos.gpkg
+    path: https://github.com/morpc/morpc-geos-collect/releases/download/v2026.10.9/morpc-geos.gpkg
     scheme: https
     format: gpkg
     mediatype: geopackage+sqlite3
-    hash: af37ab9c803094d51171a8123c3280c5
-    bytes: 195596288
+    hash: 8a4390e3917f42b1e472839a94608a79
+    bytes: 197226496
     dialect:
       gpkg:
         layer: REGIONMPO-MORPC
@@ -693,12 +693,12 @@ resources:
       JURIS-COUNTY-MORPC, REGIONSWACO, REGIONMPO-MORPC, COUNTY-TAZ-MAZ-GRIDMAZ, COUNTY-TAZ-MAZ,
       COUNTY-TAZ, LIBRARYD'
     profile: data-resource
-    path: https://github.com/morpc/morpc-geos-collect/releases/download/v2026.9.11/morpc-geos.gpkg
+    path: https://github.com/morpc/morpc-geos-collect/releases/download/v2026.10.9/morpc-geos.gpkg
     scheme: https
     format: gpkg
     mediatype: geopackage+sqlite3
-    hash: af37ab9c803094d51171a8123c3280c5
-    bytes: 195596288
+    hash: 8a4390e3917f42b1e472839a94608a79
+    bytes: 197226496
     dialect:
       gpkg:
         layer: COUNTY-TAZ-MAZ-GRIDMAZ
@@ -719,12 +719,12 @@ resources:
       JURIS-COUNTY-MORPC, REGIONSWACO, REGIONMPO-MORPC, COUNTY-TAZ-MAZ-GRIDMAZ, COUNTY-TAZ-MAZ,
       COUNTY-TAZ, LIBRARYD'
     profile: data-resource
-    path: https://github.com/morpc/morpc-geos-collect/releases/download/v2026.9.11/morpc-geos.gpkg
+    path: https://github.com/morpc/morpc-geos-collect/releases/download/v2026.10.9/morpc-geos.gpkg
     scheme: https
     format: gpkg
     mediatype: geopackage+sqlite3
-    hash: af37ab9c803094d51171a8123c3280c5
-    bytes: 195596288
+    hash: 8a4390e3917f42b1e472839a94608a79
+    bytes: 197226496
     dialect:
       gpkg:
         layer: COUNTY-TAZ-MAZ
@@ -745,12 +745,12 @@ resources:
       JURIS-COUNTY-MORPC, REGIONSWACO, REGIONMPO-MORPC, COUNTY-TAZ-MAZ-GRIDMAZ, COUNTY-TAZ-MAZ,
       COUNTY-TAZ, LIBRARYD'
     profile: data-resource
-    path: https://github.com/morpc/morpc-geos-collect/releases/download/v2026.9.11/morpc-geos.gpkg
+    path: https://github.com/morpc/morpc-geos-collect/releases/download/v2026.10.9/morpc-geos.gpkg
     scheme: https
     format: gpkg
     mediatype: geopackage+sqlite3
-    hash: af37ab9c803094d51171a8123c3280c5
-    bytes: 195596288
+    hash: 8a4390e3917f42b1e472839a94608a79
+    bytes: 197226496
     dialect:
       gpkg:
         layer: COUNTY-TAZ
@@ -771,12 +771,12 @@ resources:
       JURIS-COUNTY-MORPC, REGIONSWACO, REGIONMPO-MORPC, COUNTY-TAZ-MAZ-GRIDMAZ, COUNTY-TAZ-MAZ,
       COUNTY-TAZ, LIBRARYD'
     profile: data-resource
-    path: https://github.com/morpc/morpc-geos-collect/releases/download/v2026.9.11/morpc-geos.gpkg
+    path: https://github.com/morpc/morpc-geos-collect/releases/download/v2026.10.9/morpc-geos.gpkg
     scheme: https
     format: gpkg
     mediatype: geopackage+sqlite3
-    hash: af37ab9c803094d51171a8123c3280c5
-    bytes: 195596288
+    hash: 8a4390e3917f42b1e472839a94608a79
+    bytes: 197226496
     dialect:
       gpkg:
         layer: LIBRARYD
@@ -789,16 +789,16 @@ resources:
       for the MORPC 15-county region derived from several sources. The geographies
       themselves are available in an associated geopackage. For more information,
       see the morpc-geos-collect workflow.  Identifiers are included for the following
-      geographies: REGIONTDM-MORPC, COUNTY-MORPC, REGION10, REGIONONECBUS, REGION7,
-      UNSD, PLACE, JURIS-MORPC, JURIS-COUNTY-MORPC, COUNTY-COUSUB, JURIS, CBSA, JURIS-COUNTY,
-      REGIONCORPO, LIBRARYD, PLACE-COUNTY, REGION15, COUNTY-TOWNSHIP-REMAINDER, REGIONCEDS,
-      URBANAREA, REGIONSWACO, REGIONMPO-MORPC, COUNTY'
+      geographies: JURIS, URBANAREA, PLACE, PLACE-COUNTY, COUNTY-MORPC, REGIONCORPO,
+      LIBRARYD, CBSA, UNSD, COUNTY, REGIONSWACO, COUNTY-TOWNSHIP-REMAINDER, REGIONONECBUS,
+      REGION7, REGION15, REGIONCEDS, JURIS-COUNTY, REGIONMPO-MORPC, REGION10, REGIONTDM-MORPC,
+      JURIS-COUNTY-MORPC, COUNTY-COUSUB, JURIS-MORPC'
     profile: data-resource
-    path: https://github.com/morpc/morpc-geos-collect/releases/download/v2026.9.11/morpc-geos-lookup.csv
+    path: https://github.com/morpc/morpc-geos-collect/releases/download/v2026.10.9/morpc-geos-lookup.csv
     scheme: https
     format: csv
     mediatype: text/csv
-    hash: 17433776b3c0e630736f2b21638d3ff4
-    bytes: 260193
+    hash: db9e337cac2d5c0ec9d2aedde86e27b1
+    bytes: 288380
     schema: morpc-geos-lookup.schema.yaml
     _cache: morpc-geos-lookup.csv

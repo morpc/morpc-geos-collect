@@ -1,6 +1,8 @@
 fields:
   - name: GEOIDFQ
     type: string
+    constraints:
+      required: true
   - name: NAME
     type: string
   - name: MUNITYPE
@@ -23,3 +25,5 @@ fields:
     type: string
   - name: PLACECOMBO
     type: string
+primaryKey:
+  - GEOIDFQ

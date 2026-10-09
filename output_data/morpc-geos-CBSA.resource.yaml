@@ -12,12 +12,12 @@ description: 'This geopackage contains a set of geographies for the MORPC 15-cou
   COUNTY-MORPC, REGIONTDM-MORPC, JURIS-COUNTY-MORPC, REGIONSWACO, REGIONMPO-MORPC,
   COUNTY-TAZ-MAZ-GRIDMAZ, COUNTY-TAZ-MAZ, COUNTY-TAZ, LIBRARYD'
 profile: data-resource
-path: https://github.com/morpc/morpc-geos-collect/releases/download/v2026.9.11/morpc-geos.gpkg
+path: https://github.com/morpc/morpc-geos-collect/releases/download/v2026.10.9/morpc-geos.gpkg
 scheme: https
 format: gpkg
 mediatype: geopackage+sqlite3
-hash: af37ab9c803094d51171a8123c3280c5
-bytes: 195596288
+hash: 8a4390e3917f42b1e472839a94608a79
+bytes: 197226496
 dialect:
   gpkg:
     layer: CBSA

@@ -1,6 +1,8 @@
 fields:
   - name: GEOIDFQ
     type: string
+    constraints:
+      required: true
   - name: NAME
     type: string
   - name: MUNITYPE
@@ -19,7 +21,5 @@ fields:
     type: string
   - name: SUMLEVEL
     type: string
-  - name: COUNTY
-    type: string
-  - name: PLACECOMBO
-    type: string
+primaryKey:
+  - GEOIDFQ

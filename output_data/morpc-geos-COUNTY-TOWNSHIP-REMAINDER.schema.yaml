@@ -1,7 +1,11 @@
 fields:
   - name: GEOIDFQ
     type: string
+    constraints:
+      required: true
   - name: NAME
+    type: string
+  - name: MUNITYPE
     type: string
   - name: GEOID
     type: string
@@ -11,5 +15,9 @@ fields:
     type: string
   - name: COUSUBFP
     type: string
+  - name: PLACEFP
+    type: string
   - name: SUMLEVEL
     type: string
+primaryKey:
+  - GEOIDFQ

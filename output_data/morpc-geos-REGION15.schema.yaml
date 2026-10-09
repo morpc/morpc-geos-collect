@@ -1,9 +1,13 @@
 fields:
   - name: GEOIDFQ
     type: string
+    constraints:
+      required: true
   - name: NAME
     type: string
   - name: GEOID
     type: string
   - name: SUMLEVEL
     type: string
+primaryKey:
+  - GEOIDFQ

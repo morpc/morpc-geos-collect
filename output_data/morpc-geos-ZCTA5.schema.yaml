@@ -1,6 +1,8 @@
 fields:
   - name: GEOIDFQ
     type: string
+    constraints:
+      required: true
   - name: GEOID
     type: string
   - name: ZCTA5CE
@@ -9,3 +11,5 @@ fields:
     type: string
   - name: SUMLEVEL
     type: string
+primaryKey:
+  - GEOIDFQ
